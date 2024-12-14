@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    margin-top: 20%;
+}
+
+
+.heart {
+    font-size: 100px;
+    color: red;
+    animation: glow 1s infinite;
+}
+
+@keyframes glow {
+    0%, 100% {text-shadow: 0 0 20px red, 0 0 30px pink; } 
+    50% { text-shadow: 0 0 50px red, 0 0 70px pink; }
+}
